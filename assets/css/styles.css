@@ -1,3 +1,18 @@
-h1 {
-    color: red;
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* CSS Variables for Theming */
+:root {
+    --primary-header-color: #CC4E5C;
+    --primary-body-color: #E2725B;
+    --primary-cards-color: #EEE8AA;
+    --secondary-cards-color: #2F847C;
+    --third-cards-color: #9ACA9D;
+    --forth-cards-color: #E5DC8B;
+    --text-color: #ffffff;
+    --black-text-color: #000000;
+}
+
+.custom-navbar {
+    background-color: var(--primary-header-color);
 }
