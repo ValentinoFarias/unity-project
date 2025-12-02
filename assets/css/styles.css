@@ -11,8 +11,14 @@
     --forth-cards-color: #E5DC8B;
     --text-color: #ffffff;
     --black-text-color: #000000;
+    --primary-font: 'Nunito', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
 }
 
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .custom-navbar {
     background-color: var(--primary-header-color);
 }
