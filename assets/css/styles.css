@@ -54,8 +54,25 @@ body {
   gap: 0.5rem;           /* space between logo and text (instead of me-2) */
 }
 
+/* Hero Section Styles */
+
+#home {
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover; /* makes it fill the screen */
+    background-position: center; /* keeps it nicely aligned */
+    background-repeat: no-repeat; /* no ugly tiles */
+    height: 700px; /* set a fixed height for the hero section */
+}
+
+#home img {
+    max-width: 500px; /* limit logo size */
+    height: auto; /* maintain aspect ratio */
+}
 
 
+
+
+/* Footer Styles */
 .footer {
     background-color: var(--primary-header-color);
 }
