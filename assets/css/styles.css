@@ -18,7 +18,44 @@
 /* Global Styles */
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--primary-body-color);
 }
+
+/* Navbar Styles */
+
 .custom-navbar {
+    background-color: var(--primary-header-color);
+  
+}
+
+/* nav bar font color */
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: var(--text-color);
+}
+
+/* set hover/focus states */
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link:focus {
+  color: #833f46;
+}
+
+/* Logo Image Styles */
+.navbar-brand img {
+     height: 40px;      /* controls visible size */
+     width: auto;       /* keep aspect ratio */
+     display: block;
+     vertical-align: middle;
+
+}
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;   /* vertically centers img + text */
+  gap: 0.5rem;           /* space between logo and text (instead of me-2) */
+}
+
+
+
+.footer {
     background-color: var(--primary-header-color);
 }

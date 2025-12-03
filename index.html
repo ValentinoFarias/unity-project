@@ -13,7 +13,7 @@
         <header>
             <nav class=" custom-navbar navbar navbar-expand-lg navbar-light">
                 <div class="container">
-                    <a class="navbar-brand" href="#">The Unity Project</a>
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/unity-logo-white.svg" alt="Logo of the unity project" class="d-inline-block align-text-top me-2">The Unity Project</a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -30,7 +30,11 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#values">Values</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#action">Actions</a></li>
                             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                           
+
                         </ul>
                     </div>
                 </div>
@@ -38,27 +42,107 @@
         </header>
 
         <main class="py-5">
-            <div class="container">
-                <section id="home" class="mb-5">
-                    <div class="p-5 bg-body-tertiary rounded-3">
-                        <h1 class="display-5">Welcome to the Bootstrap Template</h1>
-                        <p class="lead">A simple starting point with Bootstrap 5 and a linked custom stylesheet.</p>
+            <div>
+                <section id="home" class="hero py-5 bg-primary text-white">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <h1 class="display-5 fw-bold">The Unity Project</h1>
+                                <p class="lead">Building inclusive digital experiences and meaningful community-driven products.</p>
+                                <a class="btn btn-light btn-lg" href="#about" role="button">Learn more</a>
+                            </div>
+                            <div class="col-md-5 text-md-end mt-4 mt-md-0">
+                                <!-- Replace with a project image if available -->
+                                <img src="assets/images/hero-illustration.svg" alt="Illustration" class="img-fluid" />
+                            </div>
+                        </div>
                     </div>
                 </section>
 
-                <section id="about" class="mb-4">
-                    <h2>About</h2>
-                    <p>Use this area to describe your project or website. Customize the look in `assets/css/styles.css`.</p>
+                <section id="about" class="py-5">
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-7">
+                                <h2 class="h3">Welcome</h2>
+                                <p>Welcome to The Unity Project — a place where designers, developers and community members collaborate to create accessible, useful tools and experiences. We focus on inclusion, clarity and real-world impact.</p>
+                                <p class="mb-0">Explore our values, join our actions, or get in touch using the contact form below.</p>
+                            </div>
+                            <div class="col-lg-5 text-center">
+                                <img src="assets/images/welcome-graphic.svg" alt="Welcome graphic" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
-                <section id="contact">
-                    <h2>Contact</h2>
-                    <p>Put contact details or a contact form here.</p>
+                <section id="values" class="py-5 bg-light">
+                    <div class="container">
+                        <h2 class="h3 mb-4">Our values</h2>
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <h3 class="h5">Inclusivity</h3>
+                                        <p class="mb-0">We design and build with everyone's needs in mind.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <h3 class="h5">Collaboration</h3>
+                                        <p class="mb-0">Open communication and shared ownership drive our work forward.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <h3 class="h5">Impact</h3>
+                                        <p class="mb-0">We prioritize practical solutions that make a measurable difference.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="action" class="py-5">
+                    <div class="container text-center">
+                        <h2 class="h3 mb-3">Take action</h2>
+                        <p class="lead mb-4">Get involved — contribute, volunteer, or support our initiatives.</p>
+                        <a href="#contact" class="btn btn-primary me-2">Contact us</a>
+                        <a href="#" class="btn btn-outline-secondary">See current projects</a>
+                    </div>
+                </section>
+
+                <section id="contact" class="py-5 bg-light">
+                    <div class="container">
+                        <h2 class="h3 mb-4">Contact</h2>
+                        <form action="#" method="post" class="row g-3" novalidate>
+                            <div class="col-md-6">
+                                <label for="contactName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="contactName" name="name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="contactEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="contactEmail" name="email" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="contactMessage" class="form-label">Message</label>
+                                <textarea class="form-control" id="contactMessage" name="message" rows="5" required></textarea>
+                            </div>
+                            <div class="col-12 d-flex justify-content-between align-items-center">
+                                <small class="text-muted">We respect your privacy. Your information will not be shared.</small>
+                                <button type="submit" class="btn btn-primary">Send message</button>
+                            </div>
+                        </form>
+                    </div>
                 </section>
             </div>
+
         </main>
 
-        <footer class="bg-light py-3">
+        <footer class="footer py-3">
             <div class="container text-center">
                 <small class="text-muted">&copy; 2025 My Site. All rights reserved.</small>
             </div>
