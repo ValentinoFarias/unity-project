@@ -159,6 +159,16 @@ body {
     background-color: var(--forth-cards-color);
 }
 
+/* Contact Section Styles */
+#contact {
+    background-color: var(--primary-body-color);
+}   
+
+#contact .container {
+    background-color: var(--secondary-cards-color);
+    padding: 3rem;
+}
+
 /* Footer Styles */
 .footer {
     background-color: var(--primary-header-color);
