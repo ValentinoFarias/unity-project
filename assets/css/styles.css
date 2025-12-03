@@ -114,10 +114,66 @@ body {
     text-align: center;
 }
 
+/* Values Section Hover Effects */
+.image-box {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.image-box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-transform: uppercase;
+}
+
+.image-box:hover .overlay {
+    opacity: 1;
+}
+
+/* Action Section Styles */
+
+#action {
+    background-color: var(--primary-body-color);
+}
+
+#action .action-container {
+    background-color: var(--third-cards-color);
+    padding: 3rem;
+}
+
+#action .card {
+    background-color: var(--forth-cards-color);
+}
 
 /* Footer Styles */
 .footer {
     background-color: var(--primary-header-color);
+}
+
+/* Toggle heading style for collapse buttons (make them look like headings) */
+.toggle-heading {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.toggle-heading:focus {
+    outline: 3px solid rgba(0,0,0,0.08);
+    outline-offset: 2px;
 }
 
 /* Media Queries for Responsiveness */
