@@ -86,6 +86,34 @@ body {
 
 }
 
+/* Values Section Styles */
+
+#values {
+    background-color: var(--primary-body-color);
+}
+#values > .container {
+    background-color: var(--primary-cards-color);
+    padding: 3rem;
+}
+
+#values .card-body {
+    background-color: var(--secondary-cards-color);
+    color: var(--text-color);
+}
+
+#respect-image, #equity-image, #openness-image {
+    width: 100%; /* set a fixed width for the icons */
+    height: auto; /* maintain aspect ratio */
+    display: block;
+}
+
+#values  p {
+    font-size: 1.5rem; /* increase font size for better readability */
+    line-height: 1.6; /* improve line spacing */
+    color: var(--text-color);
+    text-align: center;
+}
+
 
 /* Footer Styles */
 .footer {
