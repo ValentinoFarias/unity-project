@@ -78,6 +78,7 @@ body {
 #about img {
     max-width: 500px; /* make image responsive */
     height: auto; /* maintain aspect ratio */
+    border-radius: 16px; /* try 6px, 8px, 10px until you like it */
 }
 
 #about p {
@@ -94,6 +95,10 @@ body {
 #values > .container {
     background-color: var(--primary-cards-color);
     padding: 3rem;
+}
+
+#values .container {
+    border-radius: 16px; /* try 6px, 8px, 10px until you like it */
 }
 
 #values .card-body {
@@ -144,6 +149,10 @@ body {
     opacity: 1;
 }
 
+.collapse {
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
 /* Action Section Styles */
 
 #action {
@@ -155,6 +164,9 @@ body {
     padding: 3rem;
 }
 
+#action .action-container {
+    border-radius: 16px; /* try 6px, 8px, 10px until you like it */
+}
 #action .card {
     background-color: var(--forth-cards-color);
 }
@@ -167,6 +179,10 @@ body {
 #contact .container {
     background-color: var(--secondary-cards-color);
     padding: 3rem;
+}
+
+#contact .container {
+    border-radius: 16px; /* try 6px, 8px, 10px until you like it */
 }
 
 /* Footer Styles */
