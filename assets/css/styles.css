@@ -69,10 +69,31 @@ body {
     height: auto; /* maintain aspect ratio */
 }
 
+/* About Section Styles */
 
+#about {
+    background-color: var(--primary-body-color);
+}
+
+#about img {
+    max-width: 500px; /* make image responsive */
+    height: auto; /* maintain aspect ratio */
+}
+
+#about p {
+    font-size: 1.5rem; /* increase font size for better readability */
+    line-height: 1.6; /* improve line spacing */
+
+}
 
 
 /* Footer Styles */
 .footer {
     background-color: var(--primary-header-color);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 767px) {
+    #about img { max-width: 100%; }
+    #about p { font-size: 1rem; } /* reduce text size if needed */
 }
