@@ -204,6 +204,28 @@ body h1 {
     transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
   }
 
+  #contact .btn {
+        background-color: var(--primary-header-color);
+        color: var(--text-color);
+        font-weight: 600;
+        border-color: transparent;
+        transition: background-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+  }
+
+    /* Hover / focus styles for contact buttons */
+    #contact .btn:hover,
+    #contact .btn:focus {
+        background-color: #B84452; /* slightly darker than --primary-header-color */
+        color: var(--text-color);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+        outline: none;
+    }
+
+    /* Stronger focus-visible for accessibility */
+    #contact .btn:focus-visible {
+        box-shadow: 0 0 0 4px rgba(204,78,92,0.18);
+    }
 /* Footer Styles */
 .footer {
     background-color: var(--primary-header-color);
