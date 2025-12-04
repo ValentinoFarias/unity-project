@@ -142,11 +142,7 @@ Stylesheet has been passed through the CSS validator and passed with no errors.
 
 When running lighhouse tests, I used an incognito window to avoid any possible interference in the results from my Chrome extensions. 
 
-- index.html 
-    - Desktop
-        - [Lighhouse test 1](assets/readme-documentation/devtools-lighthouse.png) 
-      
-        
+![Lighthouse result](assets/readme-documentation/devtools-lighthouse.png)       
     
 
 ## Bugs & Fixes
