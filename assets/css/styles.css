@@ -19,6 +19,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--primary-body-color);
+    
+}
+body h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: var(--text-color);
 }
 
 /* Navbar Styles */
