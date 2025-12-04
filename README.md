@@ -53,7 +53,7 @@ The steps to deploy via GitHub pages are as follows:
 
 ### How to view the Project:
 
-- [View the deployed site](https://jamiejb123.github.io/mental-health-awareness-project/)
+- [View the deployed site]
 
 ## AI Use
 
