@@ -65,7 +65,7 @@ body h1 {
 #home {
     background-image: url(../images/hero-image.jpg);
     background-size: cover; /* makes it fill the screen */
-    background-position: center center 5%; /* keeps it nicely aligned */
+    background-position: center 5%; /* keeps it nicely aligned */
     background-repeat: no-repeat; /* no ugly tiles */
     height: 700px; /* set a fixed height for the hero section */
 }
