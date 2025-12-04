@@ -81,15 +81,14 @@ In summary, AI was a valuable tool for idea generation, content support, problem
 
 ### Colours: 
 
-For my colour palette, I took inspiration from [pinterest](https://uk.pinterest.com/pin/823947694363170020/). For this website I wanted to evoke an inviting sense of warmth and calm as well as creating a playful, light-hearted and accessible feel. This selection tries to balance these two goals by using vibrant colours softened through pastel tones. 
+For my colour palette, I took inspiration from [pinterest] For this website I wanted to evoke an inviting sense of warmth and calm as well as creating a playful, light-hearted and accessible feel. This selection tries to balance these two goals by using vibrant colours softened through pastel tones. 
 
-![Colour palette rendered through coolors.co](assets/readme-documentation/healthy-mind-palette.png)
-
+![Colour palette rendered through coolors.co]
 ### Typography: 
 
 The following fonts were selected from [Google Fonts](https://fonts.google.com/) to further support the balance between calm / accessible and playful / light. Quicksand was chosen as the main typeface for its readability, accessibility and gentleness. Dynapuff was chosen for the major headings to inject a sense of playfulness into the site and balance out the potentially heavy subject-matter. 
 
-![A screenshot of the two typefaces chosen for this project](assets/readme-documentation/typography.png)
+![A screenshot of the two typefaces chosen for this project]
 
 ### Images and Icons:
 
@@ -102,25 +101,19 @@ All images in this project were AI generated using [Microsoft Copilot](https://c
 
 ## Wireframes:
 
-The basic structure of Healthy Mind was worked out using the wireframe software [BALSAMIQ](https://balsamiq.com/?gad_source=1&gad_campaignid=203404003&gbraid=0AAAAAD3BuzMO_b68z_FDD6MbtQx7bQ_6V&gclid=CjwKCAjwruXBBhArEiwACBRtHYXoWEdqjT_KJt9p8mXI8IdiipWikWrlgDIK9-gS3FKGd6jtQpN4qxoCpiQQAvD_BwE), to guide my development choices when coding. Over the project the vision for the layout changed and new sections were incorporated. An updated set of wireframes were created to reflect this. I have included both the original wireframes and the updated wireframes for comparison. 
+The basic structure of Healthy Mind was worked out using the wireframe software, to guide my development choices when coding. Over the project the vision for the layout changed and new sections were incorporated. An updated set of wireframes were created to reflect this. I have included both the original wireframes and the updated wireframes for comparison. 
 
 ### Desktop: 
 
-- [Wireframe 1: Hero, About, Common Issues](assets/readme-documentation/updated-wireframes/desktopwireframe1.png)
-- [Wireframe 2: Tips, Resources](assets/readme-documentation/updated-wireframes/desktopwireframe2.png)
-    - [~~Initial Wireframe~~](assets/readme-documentation/initial-wireframe/desktop-initial-wireframe.png)
+
 
 ### Tablet:
 
-- [Wireframe 1: Hero, About, Common Issues](assets/readme-documentation/updated-wireframes/tabletwireframe1.png)
-- [Wireframe 2: Tips, Resources](assets/readme-documentation/updated-wireframes/tabletwireframe2.png)
-    - [~~Initial Wireframe~~](assets/readme-documentation/initial-wireframe/tablet-initial-wireframe.png)
+
 
 ### Mobile: 
 
-- [Wireframe 1: Home, About, Common Issues](assets/readme-documentation/updated-wireframes/mobilewireframe1.png)
-- [Wireframe 2: Tips, Resources, Contact](assets/readme-documentation/updated-wireframes/mobilewireframe2.png)
-    - [~~Initial Wireframe~~](assets/readme-documentation/initial-wireframe/mobile-initial-wireframe.png)
+
 
 ## Technologies: 
 
@@ -159,7 +152,7 @@ All HTML pages have been tested with the w3c validator and passed with no errors
 
 Stylesheet has been passed through the CSS validator and passed with no errors.
 
-![CSS validator results](assets/readme-documentation/css-validator.png)
+![CSS validator results]
 
 [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/)
 
@@ -173,22 +166,22 @@ When running lighhouse tests, I used an incognito window to avoid any possible i
 
 - index.html 
     - Desktop
-        - [Lighhouse test 1](assets/readme-documentation/lighthouse-report1.png) 
-        - [Lighthouse test 2](assets/readme-documentation/lighthouse-report2.png)
+        - [Lighhouse test 1](
+        - [Lighthouse test 2]
         - Originally the performance and accessibility scores were lower than ideal. 
         
         To address performance, Lighthouse recommended reformatting images into 'next-gen' formats (e.g. webP or AVIF) and properly sizing images. Images were resized using an [image resizer tool](https://www.img2go.com/resize-image) and were converted to webP using an [image converter tool](https://cloudinary.com/tools/png-to-webp). This resolved the performance issues.
         
         To address accessibility, Lighthouse highlighted that the buttons didn't have accessible names and the heading elements were not sequentially-descending. Unnecessary buttons were removed from the page, the page was scanned with co-pilot for accessibility improvements (and aria-labels were added), and the ```<h4>``` element in the footer was replaced with a ```<p>```element styled as a header. This resolved the accessibility issues. 
     - Mobile 
-        - [Lighthouse test](assets/readme-documentation/index-mobile-lighthouse-report.png)
+        - [Lighthouse test]
 
         Performance could have been improved by resizing images specifically for mobile (as they had been resized for largest viewport) and reducing largest contentful paint. However, the performance was still acceptable and, given the scope of this project, I decided that I would leave it for now. 
 - success.html 
     - Desktop
-        - [Lighthouse test](assets/readme-documentation/success-desktop-lighthouse-report.png)
+        - [Lighthouse test]
     - Mobile 
-        - [Lighthouse test](assets/readme-documentation/success-mobile-lighthouse-report.png)
+        - [Lighthouse test]
 
         The success page was a simple HTML page and the lighthouse report was good. No improvements required.
 
