@@ -275,51 +275,61 @@
             </div>
         </section>
 
-        <!-- CONTACT SECTION -->
-
-        <section id="contact" class="py-5">
-          <div class="container">
-            <h1 class="mb-4 text-center">Contact</h1>
-            <form action="success.html" method="post" class="row g-3" novalidate>
-              <div class="col-md-6">
-                <label for="contactName" class="form-label">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="contactName"
-                  name="name"
-                  required
-                />
-              </div>
-              <div class="col-md-6">
-                <label for="contactEmail" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="contactEmail"
-                  name="email"
-                  required
-                />
-              </div>
-              <div class="col-12">
-                <label for="contactMessage" class="form-label">Message</label>
-                <textarea
-                  class="form-control"
-                  id="contactMessage"
-                  name="message"
-                  rows="5"
-                  required
-                ></textarea>
-              </div>
-              <div class="col-12 d-flex justify-content-center align-items-center">
-                <button type="submit" class="btn btn-primary">
-                  Send message
-                </button>
-              </div>
-            </form>
-          </div>
-        </section>
+<!-- CONTACT SECTION -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h1 class="mb-4 text-center">Contact</h1>
+    <form action="success.html" method="post" class="row g-3 needs-validation" novalidate>
+      <div class="col-md-6">
+        <label for="contactName" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="contactName"
+          name="name"
+          required
+        />
+        <div class="invalid-feedback">
+          Please enter your name.
+        </div>
       </div>
+
+      <div class="col-md-6">
+        <label for="contactEmail" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="contactEmail"
+          name="email"
+          required
+        />
+        <div class="invalid-feedback">
+          Please enter a valid email address.
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="contactMessage" class="form-label">Message</label>
+        <textarea
+          class="form-control"
+          id="contactMessage"
+          name="message"
+          rows="5"
+          required
+        ></textarea>
+        <div class="invalid-feedback">
+          Please write a message.
+        </div>
+      </div>
+
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <button type="submit" class="btn btn-primary">
+          Send message
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
     </main>
 
     <!-- FOOTER -->

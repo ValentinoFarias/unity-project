@@ -191,6 +191,19 @@ body h1 {
     border-radius: 16px; /* try 6px, 8px, 10px until you like it */
 }
 
+  /* Hover & focus effect for the whole input/textarea box */
+  #contact .form-control:hover,
+  #contact .form-control:focus {
+    background-color: #db925a; /* light blue background on hover/focus */
+    border-color: #0d6efd;      /* optional: change border too */
+    box-shadow: 0 0 8px rgba(13, 110, 253, 0.3); /* optional glow */
+  }
+
+  /* Smooth transition for nicer effect */
+  #contact .form-control {
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  }
+
 /* Footer Styles */
 .footer {
     background-color: var(--primary-header-color);
