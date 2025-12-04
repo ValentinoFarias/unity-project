@@ -252,6 +252,12 @@ body h1 {
     outline-offset: 2px;
 }
 
+/* Success Page Specific Styles */
+.success-page .success-box {
+    background-color: var(--secondary-cards-color);
+    color: var(--text-color);
+}
+
 /* Media Queries for Responsiveness */
 @media (max-width: 767px) {
     #about img { max-width: 100%; }
