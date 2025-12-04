@@ -4,16 +4,14 @@
 
 ![Responsive design device mock-ups](assets/readme-documentation/am-i-responsive-unity-project.png)
 
-**Author:** James Jarvis-Bicknell
+**Author:** Valentino Farias
 
 **This project was developed as part of my 16-week full-stack development bootcamp with Code Institute. It brings together what we have learned from the front-end side of the course: HTML and CSS essentials + Bootstrap.**
 
 ## Purpose: 
 
-The purpose of this website is to enable external users to discover accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout. As a site owner, the site is designed to create a welcoming space that offers approachable and basic mental health information using a clean and supportive design. 
-
-The website was created with an awareness of the context surrounding mental health and an appreciation that it can be a daunting and overwhelming task to find simple and easily digestable information. Therefore, every decision was guided by the idea that this site could be used to simplify the landscape a bit, as a non-exhaustive first 'port of call' to enable users to get their bearings without drowning in information.
-
+The purpose of this website is to enable external users to discover accessible, beginner-friendly information on diversity and inclusion, including how to recognize common challenges and foster inclusive practices, presented in a supportive and organised layout. As a site owner, the site is designed to create a welcoming space that offers approachable and foundational diversity and inclusion resources using a clean and supportive design.
+The website was created with an awareness of the context surrounding diversity and inclusion and an appreciation that it can be a daunting and overwhelming task to find simple and easily digestible information. Therefore, every decision was guided by the idea that this site could be used to simplify the landscape a bit, as a non-exhaustive first 'port of call' to enable users to get their bearings without drowning in information.
 The website has been built using HTML, CSS and Bootstrap. Google Fonts and Font Awesome were also used. 
 
 ## Features: 
@@ -22,17 +20,15 @@ The website has been built using HTML, CSS and Bootstrap. Google Fonts and Font 
 
 - Navigation 
 - About Section 
-- Common Issues section
-- Tools and Tips section
-- Resources section 
+- Values section
+- Actions section
 - Contact Form 
     - and Success Page
 - Footer
 
 ### Future Features 
 - Carousel of positive affirmations / inspiring quotes
-- 'Daily mood check-in' section
-- Interactive quiz for insight into stress levels with encouraging feedback tailored to quiz results
+
 
 ## Deployment 
 
@@ -53,74 +49,54 @@ The steps to deploy via GitHub pages are as follows:
 
 ### How to view the Project:
 
-- [View the deployed site](https://jamiejb123.github.io/mental-health-awareness-project/)
+- [View the deployed site](https://valentinofarias.github.io/unity-project/)
 
 ## AI Use
 
 ### Uses:
 
 - Expand / refine user stories into tasks and acceptance criteria
-- Content generation: the images and much of the copy
+- Content generation: the images and much of the content
 - Used to generate some of the meta content
 - To assist with problem-solving / bug fixes
 - Code review and optimisation - particularly in relation to semantics and accessibility
 
 ### AI Usage Reflection
 
-AI played a supportive but carefully managed role throughout the development of the ••Healthy Mind•• website. During the initial ideation phase, AI was used to expand and refine user stories, suggesting additional tasks, features, and acceptance criteria. These ideas were always critically assessed for relevance and alignment with the project goals.
-
-Although I deliberately chose to write all the HTML and CSS independently to strengthen my own understanding, AI was used strategically for specific tasks where it added value. For example, once the site structure was in place, AI proved highly effective for content generation — e.g. generating imagery, logos, and copy. 
-
+AI played a supportive but carefully managed role throughout the development of the ••Diversity & Inclusion Project•• website. During the initial ideation phase, AI was used to expand and refine user stories, suggesting additional tasks, features, and acceptance criteria. These ideas were always critically assessed for relevance and alignment with the project’s goals of fostering inclusivity and accessibility.
+Although I deliberately chose to write all the HTML and CSS independently to strengthen my own understanding, AI was used strategically for specific tasks where it added value. For example, once the site structure was in place, AI proved highly effective for content generation — e.g. creating inclusive imagery, designing logos that reflected diversity, and drafting copy that emphasized equity and belonging.
 Problem-solving was another key area where AI was valuable. When I encountered specific bugs, AI tools such as Copilot in VS Code and browser DevTools AI chat provided helpful insights. Rather than asking for full solutions, I used AI to explore the problem space and identify potential causes, which helped me better understand the issues and decide on appropriate fixes.
-
-Finally, AI was used to review and optimise my code for accessibility and semantic clarity. Some suggestions were useful but others were irrelevant, so each had to be reviewed on a case by case basis.
-
+Finally, AI was used to review and optimise my code for accessibility and semantic clarity, ensuring that the site aligned with best practices for inclusive design. Some suggestions were useful but others were irrelevant, so each had to be reviewed on a case-by-case basis.
 In summary, AI was a valuable tool for idea generation, content support, problem-solving, and code refinement. However, it was not a replacement for understanding. Developmental control remained firmly with me throughout, and the project benefited most when AI was used as a collaborative assistant rather than a solution provider.
 
 ## Design Choices:
 
 ### Colours: 
 
-For my colour palette, I took inspiration from [pinterest](https://uk.pinterest.com/pin/823947694363170020/). For this website I wanted to evoke an inviting sense of warmth and calm as well as creating a playful, light-hearted and accessible feel. This selection tries to balance these two goals by using vibrant colours softened through pastel tones. 
+ For this website I wanted to evoke a strong sense of inclusivity and representation, while also creating an approachable, empowering, and accessible feel. The design aims to reflect diversity by combining bold, contrasting colours that celebrate difference with balanced tones that ensure clarity and cohesion.
 
-![Colour palette rendered through coolors.co](assets/readme-documentation/healthy-mind-palette.png)
+![Colour palette rendered through coolors.co](assets/readme-documentation/coloors-used.png)
 
 ### Typography: 
 
-The following fonts were selected from [Google Fonts](https://fonts.google.com/) to further support the balance between calm / accessible and playful / light. Quicksand was chosen as the main typeface for its readability, accessibility and gentleness. Dynapuff was chosen for the major headings to inject a sense of playfulness into the site and balance out the potentially heavy subject-matter. 
+The following fonts were selected from Google Fonts to reinforce the balance between approachable / inclusive and dynamic / engaging. Open sans was chosen as the primary typeface for its clarity, friendliness, and ease of reading. Nunito was selected for the main headings to bring energy and vibrancy to the site, helping to counterbalance the seriousness of the subject matter with a sense of positivity and celebration.
 
-![A screenshot of the two typefaces chosen for this project](assets/readme-documentation/typography.png)
+![A screenshot of the two typefaces chosen for this project](assets/readme-documentation/fonts-used.png)
 
 ### Images and Icons:
 
 Wherever icons were used in this project (resources section and footer), they were taken from [Font Awesome](https://fontawesome.com/).
 
-All images in this project were AI generated using [Microsoft Copilot](https://copilot.microsoft.com/chats/mpxbm6uP1PJA8vUpBgf1Y). This was used for several reasons: 
-1. Avoid any possible copyright issues.
-2. The colour palette was chosen before images. Therefore, using AI made it more straightforward to find images coherent with the colour scheme.
-3. I did not want photorealistic images and feeding AI prompts enabled image-generation in keeping with the playful feel I was aiming for.
+All visuals in this project were AI generated using OpenArt.ai. This approach was chosen for several reasons:
+1. To ensure freedom from potential copyright concerns.
+2. The design palette was established prior to image creation, so using AI made it easier to generate visuals that aligned seamlessly with the chosen colours.
+3. I wanted illustrations that conveyed inclusivity and representation rather than photorealism, and prompting AI allowed me to produce imagery that reflected these values in a cohesive and intentional way.
 
 ## Wireframes:
 
-The basic structure of Healthy Mind was worked out using the wireframe software [BALSAMIQ](https://balsamiq.com/?gad_source=1&gad_campaignid=203404003&gbraid=0AAAAAD3BuzMO_b68z_FDD6MbtQx7bQ_6V&gclid=CjwKCAjwruXBBhArEiwACBRtHYXoWEdqjT_KJt9p8mXI8IdiipWikWrlgDIK9-gS3FKGd6jtQpN4qxoCpiQQAvD_BwE), to guide my development choices when coding. Over the project the vision for the layout changed and new sections were incorporated. An updated set of wireframes were created to reflect this. I have included both the original wireframes and the updated wireframes for comparison. 
+The basic structure of the Diversity & Inclusion site was initially developed using the design platform Figma, which guided my decisions when moving into coding. As the project evolved, the vision for the layout expanded and new sections were introduced to better reflect the themes of inclusivity and representation. An updated set of wireframes was produced to capture these changes. I have included both the original wireframes and the revised versions for comparison. 
 
-### Desktop: 
-
-- [Wireframe 1: Hero, About, Common Issues](assets/readme-documentation/updated-wireframes/desktopwireframe1.png)
-- [Wireframe 2: Tips, Resources](assets/readme-documentation/updated-wireframes/desktopwireframe2.png)
-    - [~~Initial Wireframe~~](assets/readme-documentation/initial-wireframe/desktop-initial-wireframe.png)
-
-### Tablet:
-
-- [Wireframe 1: Hero, About, Common Issues](assets/readme-documentation/updated-wireframes/tabletwireframe1.png)
-- [Wireframe 2: Tips, Resources](assets/readme-documentation/updated-wireframes/tabletwireframe2.png)
-    - [~~Initial Wireframe~~](assets/readme-documentation/initial-wireframe/tablet-initial-wireframe.png)
-
-### Mobile: 
-
-- [Wireframe 1: Home, About, Common Issues](assets/readme-documentation/updated-wireframes/mobilewireframe1.png)
-- [Wireframe 2: Tips, Resources, Contact](assets/readme-documentation/updated-wireframes/mobilewireframe2.png)
-    - [~~Initial Wireframe~~](assets/readme-documentation/initial-wireframe/mobile-initial-wireframe.png)
+![A screenshot of Figma](assets/readme-documentation/wireframe-figma.png)
 
 ## Technologies: 
 
@@ -132,20 +108,20 @@ The basic structure of Healthy Mind was worked out using the wireframe software 
 
 ### Other Technologies, Frameworks & Libraries: 
 
-- [Bootstrap 5](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](https://fontawesome.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Git](https://git-scm.com/)
-- [GitHub](https://github.com/)
-- [BALSAMIQ](https://balsamiq.com/?gad_source=1&gad_campaignid=203404003&gbraid=0AAAAAD3BuzMO_b68z_FDD6MbtQx7bQ_6V&gclid=CjwKCAjwruXBBhArEiwACBRtHYXoWEdqjT_KJt9p8mXI8IdiipWikWrlgDIK9-gS3FKGd6jtQpN4qxoCpiQQAvD_BwE)
-- [Coolors](https://coolors.co/)
-- [Pinterest](https://uk.pinterest.com/)
-- [Stack Overflow](https://try.stackoverflow.co/get-teams/?utm_source=adwords&utm_medium=ppc&utm_campaign=kb_teams_search_brand_emea-dach&_bt=657236278306&_bk=stack+overflow&_bm=p&_bn=g&gad_source=1&gad_campaignid=10618329760&gbraid=0AAAAADlO0L1YSj_Ax7ln3HiA8-oM9nEWP&gclid=CjwKCAjwruXBBhArEiwACBRtHc83drtdIp0m7bMM_Ic-Al4NFRQfCG4HOKmsIk1dWiAjrPGmGlD3UxoCNCcQAvD_BwE)
+• Bootstrap 5
+• Google Fonts
+• Font Awesome
+• Visual Studio Code
+• Git
+• GitHub
+• Coolors
+• Figma
+• OpenArt.ai
+
 
 ## Testing
 
-For testing, I made use of multiple resources: HTML and CSS validators, Chrome Dev Tools Lighthouse tests, thorough user testing, and WAVE accessibility evaluation tools. Errors and bugs found during the testing stage will be noted in the Bugs and Fixes section.
+For quality assurance, I relied on a range of tools and methods: code validation checks for HTML and CSS, performance audits through Chrome DevTools Lighthouse, extensive usability trials with different users. Any issues or glitches identified during this stage are documented in the Bugs and Fixes section.
 
 ### Tests
 
@@ -153,7 +129,7 @@ For testing, I made use of multiple resources: HTML and CSS validators, Chrome D
 
 All HTML pages have been tested with the w3c validator and passed with no errors. 
 
-![HTML validator results](assets/readme-documentation/html-validation.png)
+![HTML validator results](assets/readme-documentation/html-validator.png)
 
 [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -161,11 +137,6 @@ Stylesheet has been passed through the CSS validator and passed with no errors.
 
 ![CSS validator results](assets/readme-documentation/css-validator.png)
 
-[WAVE Accessibility Evaluation Tool](https://wave.webaim.org/)
-
-Page was accessibility evaluated with WAVE accessibility evaluation tool. There were no errors or contrast errors, but one alert was produced related to the footer text which was styled like a header but did not use a heading element. This was ignored because it was an intentional choice related to accessibility (i.e. maintaining the sequentially-descending order of headings in the document).
-
-![WAVE accessibility results](assets/readme-documentation/wave-accessibility-test.png)
 
 [Chrome Dev Tools - Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 
@@ -173,40 +144,27 @@ When running lighhouse tests, I used an incognito window to avoid any possible i
 
 - index.html 
     - Desktop
-        - [Lighhouse test 1](assets/readme-documentation/lighthouse-report1.png) 
-        - [Lighthouse test 2](assets/readme-documentation/lighthouse-report2.png)
-        - Originally the performance and accessibility scores were lower than ideal. 
+        - [Lighhouse test 1](assets/readme-documentation/devtools-lighthouse.png) 
+      
         
-        To address performance, Lighthouse recommended reformatting images into 'next-gen' formats (e.g. webP or AVIF) and properly sizing images. Images were resized using an [image resizer tool](https://www.img2go.com/resize-image) and were converted to webP using an [image converter tool](https://cloudinary.com/tools/png-to-webp). This resolved the performance issues.
-        
-        To address accessibility, Lighthouse highlighted that the buttons didn't have accessible names and the heading elements were not sequentially-descending. Unnecessary buttons were removed from the page, the page was scanned with co-pilot for accessibility improvements (and aria-labels were added), and the ```<h4>``` element in the footer was replaced with a ```<p>```element styled as a header. This resolved the accessibility issues. 
-    - Mobile 
-        - [Lighthouse test](assets/readme-documentation/index-mobile-lighthouse-report.png)
-
-        Performance could have been improved by resizing images specifically for mobile (as they had been resized for largest viewport) and reducing largest contentful paint. However, the performance was still acceptable and, given the scope of this project, I decided that I would leave it for now. 
-- success.html 
-    - Desktop
-        - [Lighthouse test](assets/readme-documentation/success-desktop-lighthouse-report.png)
-    - Mobile 
-        - [Lighthouse test](assets/readme-documentation/success-mobile-lighthouse-report.png)
-
-        The success page was a simple HTML page and the lighthouse report was good. No improvements required.
+    
 
 ## Bugs & Fixes
 
-### Combining CSS grid with Bootstrap cards:
-One key issue encountered during development involved combining CSS Grid with Bootstrap cards. The cards were not expanding to fill the space assigned to them within the grid layout. This led to inconsistent spacing and a broken visual structure.
+### Footer and Icon Alignment
+One key issue encountered during development involved the footer and its embedded icons. The icons were not aligning properly within the footer’s grid, which led to uneven spacing and a visually unbalanced layout.
+To diagnose the issue, I used the AI chat embedded within DevTools, which helped me inspect the relevant CSS and identify the root cause. The problem stemmed from conflicting margin and flex properties that were applied by default, overriding the intended alignment rules.
+The solution involved introducing custom CSS overrides to reset the default spacing and applying consistent flexbox rules. This ensured the icons aligned neatly within the footer, restoring balance and improving the overall design consistency.
 
-To diagnose the issue, I used the AI chat embedded within DevTools, which helped me examine the relevant code and pinpoint the root cause. The problem stemmed from Bootstrap’s default flex properties, which were overriding the expected grid behavior.
-
-The solution involved overriding Bootstrap’s defaults with custom CSS to ensure that the cards expanded correctly within the grid. This resolved the layout issue and improved the responsiveness and consistency of the design.
-
-### Browser Scroll Behaviour
-I encountered an issue where scroll-padding-top—used to prevent the fixed navbar from overlapping content during internal navigation—suddenly stopped working. I had also added custom JavaScript (borrowed from a previous project) to collapse the Bootstrap navbar toggler on internal link clicks. Using Microsoft Copilot in VS Code, I investigated the issue and identified that the custom JavaScript was overriding the browser’s default scroll behavior. By isolating and testing parts of the script, I was able to remove the conflicting code while preserving the intended navbar collapse functionality.
+### Values Section and Clickable Images
+I also encountered an issue within the values section, where images unintentionally became clickable. This created confusion for users, as the images appeared to function like links without any defined destination.
+Using Microsoft Copilot in VS Code, I investigated the issue and discovered that the images had inherited anchor-like behavior due to surrounding container properties. By isolating the section and testing different configurations, I was able to strip away the unintended click functionality while preserving the intended styling.
+The fix involved adjusting the HTML structure and removing unnecessary attributes, ensuring that the values section displayed static, non-clickable images. This resolved the usability issue and reinforced clarity in the site’s design.
 
 ## Credits
 
-- [Stack Overflow](https://stackoverflow.com/questions) to explore certain problems and get ideas about the issue.
-- [Kevin Powell](https://www.youtube.com/@KevinPowell) for helping me understand CSS grid so that I could incorporate it in my project.
-- [W3Schools](https://www.w3schools.com/) and [MDN WebDocs](https://developer.mozilla.org/en-US/) were a major resource for answering questions and figuring out problems.
+- [Openart.ia](https://openart.ai/home) to explore certain problems and get ideas about the issue.
+
+- [W3Schools](https://www.w3schools.com/). 
 - [Code Institute](https://codeinstitute.net/) for providing a supportive learning environment, great resources and great tuition.
+- [jamiejb123] (https://jamiejb123.github.io/mental-health-awareness-project/). Providing general structure and ideas of the whole proejct.
